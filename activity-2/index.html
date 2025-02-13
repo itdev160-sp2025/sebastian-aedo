@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Activity 2</title>
+  </head>
+  <body>
+    <img
+      src="images/image1.jpg"
+      alt="Lionel Messi"
+      width="200"
+      height="200"
+    />
+    <br />
+    <br />
+    <a href="mailto:aedovis@gmatc.matc.edu">Contact Sebastian Aedo</a>
+    <!--Simple table-->
+    <br />
+    <br />
+    <h1>Weekly meal prep</h1>
+    <table
+      id="simple-table"
+      border="1"
+      cellspacing="0"
+    >
+      <tr>
+        <th>Day of the week</th>
+        <th>Lunch</th>
+        <th>Dinner</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>White rice with chicken and eggs</td>
+        <td>Spinach and blue cheese pasta with chicken</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>Beef with mash potatoes</td>
+        <td>Teriyaki pork with veggies and white rice</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>Spinach and blue cheese pasta with chicken</td>
+        <td>Salmon with steamed veggies</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>Beef with mash potatoes</td>
+        <td>White rice with chicken and eggs</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td>Salmon with steamed veggies</td>
+        <td>Teriyaki pork with veggies and white rice</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <!--Complex table-->
+    <table
+      id="complex-table"
+      border="1"
+      cellspacing="0"
+    >
+      <thead>
+        <tr>
+          <th colspan="4">Nutritional information</th>
+        </tr>
+        <tr>
+          <th scope="column">Dish</th>
+          <th scope="column">Calories</th>
+          <th scope="column">Protein</th>
+          <th scope="column">Carbs</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row">White rice with chicken and eggs</td>
+          <td>400</td>
+          <td>60gr</td>
+          <td>200gr</td>
+        </tr>
+        <tr>
+          <td scope="row">Spinach and blue cheese pasta with chicken</td>
+          <td rowspan="2">500</td>
+          <td>50gr</td>
+          <td>300gr</td>
+        </tr>
+        <tr>
+          <td scope="row">Teriyaki pork with veggies and white rice</td>
+
+          <td>55gr</td>
+          <td>200gr</td>
+        </tr>
+        <tr>
+          <td scope="row">Beef with mash potatoes</td>
+          <td>600</td>
+          <td>70gr</td>
+          <td>200gr</td>
+        </tr>
+        <tr>
+          <td scope="row">Salmon with steamed veggies</td>
+          <td>400</td>
+          <td>50gr</td>
+          <td>150gr</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td colspan="4"><strong>Easy and complete meal prep!</strong></td>
+      </tfoot>
+    </table>
+  </body>
+</html>
